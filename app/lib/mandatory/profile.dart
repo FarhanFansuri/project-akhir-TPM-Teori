@@ -49,7 +49,7 @@ class Identity extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.center,
               children: const [
                 Text(
-                  "Master manipulator, deal-maker and\n                   entrepreneur",
+                  "Memiliki minat di bidang musik\n dan programming",
                   style: TextStyle(fontSize: 20),
                 )
               ],
@@ -68,7 +68,45 @@ class Identity extends StatelessWidget {
                   color: Colors.black54,
                 ),
                 title: Text(
-                  'Settings',
+                  '123200127',
+                  style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+                ),
+              ),
+            ),
+            const SizedBox(
+              height: 10,
+            ),
+            Card(
+              color: Colors.white70,
+              margin: const EdgeInsets.only(left: 35, right: 35, bottom: 10),
+              shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(30)),
+              child: const ListTile(
+                leading: Icon(
+                  Icons.privacy_tip_sharp,
+                  color: Colors.black54,
+                ),
+                title: Text(
+                  'Bermain musik',
+                  style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+                ),
+              ),
+            ),
+            const SizedBox(
+              height: 10,
+            ),
+            Card(
+              color: Colors.white70,
+              margin: const EdgeInsets.only(left: 35, right: 35, bottom: 10),
+              shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(30)),
+              child: const ListTile(
+                leading: Icon(
+                  Icons.privacy_tip_sharp,
+                  color: Colors.black54,
+                ),
+                title: Text(
+                  'IF-C',
                   style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
                 ),
               ),
